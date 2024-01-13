@@ -1,0 +1,9 @@
+<%= form_with(model: [@stack, product]) do |form| %>
+  <%= render 'shared/error_messages', resource: form.object %>
+  <div class="form-group">
+    <%= form.label :link, 'Amazon link', class: 'form-label' %>
+    <%= form.text_field :link, class: 'form-input', placeholder: '' %>
+  </div>
+
+  <%= form.submit 'Add product', class: 'btn btn-primary btn-lg' %>
+<% end %>
