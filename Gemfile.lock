@@ -309,6 +309,7 @@ DEPENDENCIES
   jbuilder
   meta-tags
   name_of_person
+  nokogiri (~> 1.16)
   puma (>= 5.0)
   rails (~> 7.1.2)
   railsui (~> 1.0)!
