@@ -1,0 +1,5 @@
+--- !ruby/object:Railsui::Configuration
+application_name: Supstacker
+support_email: antnamve@gmail.com
+css_framework: tailwind
+theme: hound
