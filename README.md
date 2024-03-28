@@ -7,3 +7,5 @@ Some app structure info:
 - "Stack" - A collection of products a user can share.
 - "Product" - Get's shared inside a Stack. Has richer data like price, description, title, etc.
 - "Brand" - The brand of the supplement. One brand per supplement.
+
+This app basically allows to gather data from Amazon to create some user carts to share in the web
